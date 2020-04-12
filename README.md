@@ -20,4 +20,4 @@ go get -u github.com/kenkyu392/go-euler-problems
 
 ## License
 
-[MIT](https://github.com/kenkyu392/go-euler-problems/blob/master/LICENSE)
+[MIT](LICENSE)
