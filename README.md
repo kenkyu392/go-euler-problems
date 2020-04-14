@@ -1,6 +1,6 @@
 # go-euler-problems
 
-Go implementation of [Project Euler](https://projecteuler.net/) problems.
+Go solutions to [Project Euler](https://projecteuler.net/) problems.
 
 ## Installation
 
