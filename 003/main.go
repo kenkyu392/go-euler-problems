@@ -7,19 +7,11 @@ import "fmt"
 // What is the largest prime factor of the number 600851475143 ?
 func main() {
 	const want = 6857
-	got := 0
-	n := 600851475143
-	for n%2 == 0 {
-		n = n / 2
-	}
-	for i := 3; i*i <= n; i = i + 2 {
-		for n%i == 0 {
-			got = i
-			n = n / i
+	got := 600851475143
+	for i := 3; i*i <= got; i = i + 2 {
+		for got%i == 0 {
+			got = got / i
 		}
-	}
-	if n > 2 {
-		got = n
 	}
 	fmt.Printf("got:%d == want:%d = %t", got, want, got == want)
 }
